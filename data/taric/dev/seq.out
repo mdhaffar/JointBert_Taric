@@ -1,0 +1,770 @@
+O O B-existance_req B-object O B-city_name_arrival B-relative_time
+O O O O
+O B-command_task B-object B-city_name_arrival O B-existance B-object B-card_type B-price_req I-price_req O B-object
+B-ticket_price I-ticket_price
+O O
+O O B-existance_req B-object B-city_name_arrival I-city_name_arrival B-price_req B-object
+B-existance_req B-money_exchange I-money_exchange
+B-answer O B-existance I-existance B-money_exchange I-money_exchange O B-existance B-money_exchange O O
+O O B-command_task B-ticket_number B-object B-city_name_arrival B-ticket_type I-ticket_type B-negation B-ticket_type O
+B-ticket_number
+B-price_req B-ticket_number O
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O O O B-relative_day O B-object O B-object B-train_type O O O B-city_name_arrival B-command_task I-command_task B-relative_day O B-object B-train_type O O O O O O B-price_req I-price_req B-price_req
+B-answer I-answer O O O O O O
+O O B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+O O O O B-object B-city_name_arrival O B-relative_time
+B-answer O B-departure_time I-departure_time B-departure_time
+O B-command_task B-object O B-object B-comparatif_time I-comparatif_time O B-departure_time I-departure_time B-departure_time B-price_req O B-object
+O O O
+O O O B-existance_req B-object B-city_name_arrival B-relative_time B-train_type O O B-train_type
+O B-departure_time O B-train_type O
+O B-price_req B-object B-ticket_type I-ticket_type
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+O O B-hour_req I-hour_req B-object B-city_name_arrival I-city_name_arrival B-train_type
+B-departure_time I-departure_time B-departure_time
+B-departure_time I-departure_time B-departure_time
+O O O B-command_task B-object B-city_name_arrival B-hour_req O B-object
+B-departure_time I-departure_time B-departure_time
+B-departure_time I-departure_time B-departure_time B-train_type O O B-train_type B-object O O B-relative_time
+O B-train_type
+B-departure_time I-departure_time B-departure_time
+O B-existance_req B-object B-relative_time O B-city_name_arrival
+B-ticket_type I-ticket_type O B-object B-train_type
+B-ticket_price I-ticket_price
+O O B-ticket_number B-object O B-city_name_arrival
+B-ticket_type I-ticket_type O B-object B-train_type B-price_req I-price_req O B-ticket_number B-object
+B-ticket_price I-ticket_price
+O O O O O B-existance_req B-object O B-city_name_arrival
+B-hour_req I-hour_req O B-object
+B-city_name_arrival B-departure_time I-departure_time B-departure_time
+B-departure_time I-departure_time B-departure_time
+O B-command_task O
+O O B-ticket_number B-object O B-city_name_arrival I-city_name_arrival B-price_req O B-object
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+O O B-command_task B-ticket_number
+O O B-object O B-city_name_arrival O
+B-city_name_arrival O O B-relative_time B-departure_time I-departure_time B-departure_time B-city_name_arrival
+O O B-object B-city_name_arrival B-hour_req
+O B-command_task O
+O O B-command_task O B-object O B-card_type
+O O O B-object
+B-existance_req B-object B-relative_time B-city_name_arrival I-city_name_arrival
+O O B-command_task B-object
+B-object B-ticket_number B-price_req O B-object
+O O O O O
+O O B-command_task B-object O B-city_name_arrival
+B-ticket_number B-city_name_departure B-city_name_arrival
+B-command_task B-money_exchange I-money_exchange O O B-money_exchange I-money_exchange
+O O O O B-command_task I-command_task B-existance_req B-object B-city_name_arrival B-relative_time
+B-train_type O
+B-hour_req I-hour_req O
+B-departure_time
+O O
+O O O O B-command_task B-ticket_number I-ticket_number B-ticket_number B-city_name_arrival I-city_name_arrival B-object B-ticket_type I-ticket_type O B-object B-ticket_type I-ticket_type
+O B-ticket_number B-ticket_type
+O O B-object B-ref_object B-ticket_type O
+O O O B-ticket_number B-object B-ticket_type I-ticket_type B-ticket_type B-city_name_arrival O B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O O
+O O
+O B-command_task B-ticket_number B-object B-city_name_arrival B-ticket_type I-ticket_type B-class_type O B-object B-train_type
+B-command_task I-command_task B-price_req O B-object I-object
+O B-ticket_number B-object B-ticket_type I-ticket_type B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+O B-command_task I-command_task B-hour_req I-hour_req B-object
+B-departure_time I-departure_time B-departure_time
+O O B-command_task B-object B-city_name_arrival
+B-price_req O O B-object O O B-object B-card_type O
+B-ticket_type I-ticket_type B-ticket_type O O B-ticket_type I-ticket_type
+B-answer I-answer B-ticket_type I-ticket_type B-negation B-ticket_type I-ticket_type
+B-ticket_price I-ticket_price
+B-object B-train_type
+B-train_type
+O B-hour_req O B-object O
+B-existance_req B-object B-relative_time O O O
+O B-departure_time I-departure_time B-departure_time
+O O B-command_task I-command_task B-object O B-object O O O B-city_name_departure O B-city_name_arrival
+O O
+B-answer I-answer O B-object O
+B-object B-rang B-departure_time I-departure_time B-departure_time O B-city_name_departure O B-city_name_arrival O O B-comparatif_time O B-city_name_departure O B-city_name_arrival
+O O
+O O B-object B-card_type B-command_task I-command_task O B-object B-city_name_arrival B-ticket_type I-ticket_type B-ticket_type
+B-answer O O
+O B-price_req O B-object O
+O B-object B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+B-object O B-duration I-duration O O O O O O
+B-answer I-answer B-duration I-duration O O
+O O O O B-object B-city_name_arrival
+B-city_name_arrival
+B-answer I-answer O O B-city_name_arrival B-negation B-city_name_arrival
+B-train_type O O B-train_type O B-object B-relative_time
+B-train_type O O O
+B-price_req B-object
+O B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O O B-command_task I-command_task B-object O O O B-city_name_before B-hour_req I-hour_req
+O
+O O
+O B-command_task I-command_task B-rang B-object B-train_type O B-city_name_arrival
+O B-departure_time I-departure_time B-departure_time
+O O B-command_task B-object
+O B-object O B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+O O B-object B-city_name_arrival
+B-price_req O B-object
+B-city_name_arrival B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+B-train_type O O B-train_type B-relative_time
+O B-train_type B-relative_time
+B-object O B-departure_time I-departure_time B-departure_time O
+B-answer
+O O B-object O O B-city_name_arrival B-hour_req
+B-departure_time I-departure_time B-departure_time O O B-departure_time I-departure_time B-departure_time
+B-negation B-departure_time I-departure_time B-departure_time I-departure_time O B-departure_time I-departure_time B-departure_time
+B-departure_time I-departure_time B-departure_time O B-city_name_arrival B-ref_object
+O O B-departure_time I-departure_time B-departure_time
+O O B-hour_req I-hour_req B-object B-city_name_arrival
+B-departure_time I-departure_time B-departure_time B-relative_time
+B-departure_time I-departure_time B-departure_time
+O O
+O O O B-existance_req B-object B-departure_time I-departure_time B-departure_time I-departure_time B-city_name_arrival I-city_name_arrival
+O B-departure_time I-departure_time B-departure_time B-negation B-relative_time
+B-existance_req O B-departure_time I-departure_time B-departure_time I-departure_time B-departure_time B-existance_req I-existance_req
+B-train_type O
+O
+O
+B-existance_req B-object B-relative_day B-city_name_arrival
+O B-relative_day I-relative_day
+B-answer B-relative_day B-answer
+B-existance_req I-existance_req B-command_task B-object O O
+O
+O
+O O B-existance_req B-object B-ticket_type I-ticket_type B-city_name_arrival
+B-price_req O B-object
+B-ticket_type I-ticket_type B-ticket_type
+O B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O O B-object B-train_type O O B-train_type
+O B-train_type
+O O O
+O O B-ticket_price I-ticket_price O
+O B-money_exchange
+O O B-money_exchange
+O B-existance_req B-object B-relative_time B-city_name_arrival B-command_task B-ticket_number B-object B-price_req O O B-ticket_number B-object
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price O B-train_type O
+O B-price_req O O O O
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price O B-train_type O
+O O
+B-existance_req I-existance_req B-class_type O B-class_type B-object O O B-train_type O
+B-answer O O B-class_type B-object O
+O O
+O O O B-ticket_number B-object O B-city_name_arrival
+B-ticket_number B-city_name_arrival
+B-answer B-ticket_number B-city_name_arrival B-existance_req
+O O
+O O
+O O B-object B-city_name_arrival
+O B-object O B-train_type
+B-price_req O B-object
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+O B-ticket_number O
+O O O B-ticket_price I-ticket_price
+O B-money_exchange
+O O O O
+O O O B-money_exchange
+O
+O
+O B-existance_req B-object O B-city_name_arrival
+B-answer I-answer
+O O B-hour_req
+B-departure_time I-departure_time B-departure_time
+B-command_task B-ticket_number B-object B-ticket_type I-ticket_type B-ticket_type
+B-price_req O B-ticket_number B-object
+O B-ticket_number B-object O B-ticket_type I-ticket_type B-ticket_type I-ticket_type
+O B-ref_person O O B-object O B-card_type
+B-price_req O O B-object
+O O B-ticket_number B-object O B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O O O O
+O O O O O O
+O
+O O B-existance_req B-object B-city_name_arrival I-city_name_arrival
+O B-relative_day I-relative_day
+B-answer I-answer B-relative_day
+O
+O O
+O O B-existance_req B-object O B-city_name_arrival B-ticket_type I-ticket_type
+B-price_req B-object
+O B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O B-ticket_price I-ticket_price
+B-train_type O B-object O B-relative_time
+O B-command_task B-object O
+O B-money_exchange
+O O O B-money_exchange O
+O O O B-money_exchange O
+O O O
+O B-existance_req B-object B-city_name_arrival
+O O B-command_task B-ticket_number B-object B-ticket_type I-ticket_type B-ticket_type
+B-price_req B-ticket_number B-object
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price O B-train_type O
+O O O B-price_req B-ticket_number B-object
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price O B-train_type O
+O O O B-object O O O B-departure_time I-departure_time B-departure_time O O O B-city_name_arrival
+B-train_type O O
+B-departure_time I-departure_time B-departure_time O B-train_type
+O O O B-command_task B-ticket_number B-object O B-city_name_arrival
+O B-ticket_number B-object B-tarif
+B-ref_object O B-ticket_type I-ticket_type O B-negation B-ticket_type I-ticket_type
+B-ticket_number B-object I-object B-tarif B-ticket_type I-ticket_type B-ticket_type
+B-ticket_number B-object B-ref_object B-ticket_type I-ticket_type
+B-price_req I-price_req B-ticket_number B-object O O
+O O O B-ticket_number B-object B-city_name_arrival
+B-ticket_type I-ticket_type
+O B-object B-train_type
+O O B-class_type B-object O
+B-price_req O B-object B-ticket_number
+B-ticket_price I-ticket_price
+O O B-ticket_number B-object O B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O O O O
+O O B-hour_req I-hour_req B-object
+B-object O B-departure_time I-departure_time B-departure_time I-departure_time
+O O
+O O B-existance_req B-object O O B-city_name_arrival
+B-answer B-existance B-departure_time I-departure_time B-departure_time
+O O O B-command_task B-object
+B-ticket_type I-ticket_type O
+B-class_type B-object
+B-price_req O B-object
+O O O O O
+O O O
+O O B-object O B-city_name_arrival
+B-ticket_type I-ticket_type B-ticket_type O
+B-class_type B-object
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+O O O O O O O
+O
+O O B-existance_req B-object B-city_name_arrival I-city_name_arrival
+B-city_name_arrival I-city_name_arrival
+B-answer I-answer B-city_name_arrival I-city_name_arrival B-existance_req B-object
+B-answer B-departure_time I-departure_time B-departure_time
+B-train_type O O B-train_type
+B-train_type
+O O B-price_req B-object
+B-class_type B-object
+B-ticket_type I-ticket_type B-negation B-ticket_type I-ticket_type B-ticket_type
+B-ticket_price I-ticket_price
+O O O O
+O O
+O O
+O B-ticket_number B-city_name_arrival
+B-ticket_type I-ticket_type O O B-ticket_type I-ticket_type
+B-answer I-answer B-ticket_type I-ticket_type
+O O B-object B-train_type O O B-train_type
+B-train_type
+O O B-command_task B-object
+B-price_req O
+B-ticket_price I-ticket_price
+O O O O
+O O
+O O B-hour_req I-hour_req B-object B-city_name_arrival
+B-departure_time I-departure_time B-departure_time
+O B-departure_time I-departure_time B-departure_time O O O B-object B-departure_time
+B-city_name_arrival O B-object B-departure_time I-departure_time B-departure_time
+O B-train_type O O B-train_type B-departure_time I-departure_time B-departure_time
+B-train_type
+O O B-command_task B-object B-ticket_type I-ticket_type B-ticket_type
+O B-object B-city_name_arrival B-hour_req I-hour_req
+B-departure_time I-departure_time B-departure_time
+B-departure_time I-departure_time B-departure_time
+B-existance_req I-existance_req B-existance_req B-object B-coreference_departure
+B-city_name_arrival O B-departure_time I-departure_time B-departure_time
+O B-existance_req B-object O O B-city_name_arrival B-coreference_departure
+O B-departure_time I-departure_time B-departure_time I-departure_time
+O O
+B-command_task B-object B-city_name_arrival B-departure_time I-departure_time B-departure_time O O
+O O O B-train_type O O B-train_type
+B-train_type
+O O B-command_task B-class_type B-object
+B-price_req O B-object
+O O O O
+O O B-existance_req B-object B-relative_day B-city_name_arrival I-city_name_arrival
+B-relative_day
+B-answer
+B-existance_req O O B-period_day O B-departure_time I-departure_time B-departure_time
+B-existance_req I-existance_req B-object B-ref_object B-coreference_departure
+B-answer I-answer
+O B-command_task B-object B-relative_day O B-period_day O O
+O O
+O O B-object O B-city_name_arrival
+B-ticket_type I-ticket_type B-ticket_type O O O O B-train_type
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+B-answer I-answer O B-object B-tarif
+O O
+B-city_name_arrival
+B-command_task B-object
+B-number_req B-object
+B-number I-number B-number I-number B-number
+B-number I-number B-number
+O O O B-answer
+O O O
+O O O O O
+O B-city_name_arrival O O
+B-city_name_arrival I-city_name_arrival
+O B-coreference_departure I-coreference_departure B-hour_req
+O B-coreference_departure B-departure_time I-departure_time B-train_type
+O B-answer B-command_task B-ticket_number B-city_name_arrival
+B-city_name_arrival I-city_name_arrival
+B-answer
+O O B-city_name_arrival I-city_name_arrival
+O O O
+B-answer O B-city_name_arrival O
+O
+O O O O
+O
+O B-money_exchange I-money_exchange B-answer
+B-answer O
+O O
+O O O
+O
+O O
+O O O B-object B-city_name_arrival
+O B-answer
+B-part_time I-part_time O O O O B-part_time O O O O O O O O O
+B-answer
+B-departure_time I-departure_time B-departure_time I-departure_time B-answer
+O O O O O O O O O
+B-command_task B-money_exchange I-money_exchange B-money_exchange I-money_exchange
+O O B-money_exchange I-money_exchange B-money_exchange I-money_exchange O O O O
+B-answer O O O B-city_name_arrival
+B-city_name_arrival B-ticket_number
+O
+O
+B-class_type O
+O O
+O O
+B-answer O
+B-answer O O O O
+O O O B-ref_object O O O O
+B-existance B-ref_object B-class_type O O O
+O
+O O
+O O
+B-answer I-answer O
+O O
+O O O O
+O
+B-city_name_arrival B-class_type B-existance_req I-existance_req O O
+B-class_type
+O O B-existance I-existance
+B-card_type B-answer
+O
+B-card_type B-existance I-existance B-object
+O O
+O O
+O O
+O B-existance_req B-object B-city_name_arrival B-relative_time O B-command_task B-object
+B-city_name_arrival O O
+O B-existance_req I-existance_req B-object O O O B-relative_day I-relative_day O
+O O B-relative_day O
+O O O O O O
+O O O O O
+B-city_name_arrival B-command_task
+B-object B-city_name_arrival
+B-city_name_arrival
+B-city_name_arrival B-negation O O O O O O O O
+O O O O O O O O O O B-city_name_arrival
+O O
+O O
+O B-command_task B-object B-city_name_arrival
+B-answer O O B-city_name_arrival
+O O B-price_req O B-object B-existance_req B-object B-relative_time O B-command_task I-command_task
+B-answer O O O B-money_exchange I-money_exchange
+O O O B-money_exchange I-money_exchange O O O O O B-money_exchange O
+O O O O
+O O O O O O O
+B-command_task I-command_task B-city_name_arrival B-existance_req B-object O B-object O O O B-hour_req I-hour_req O
+B-train_type I-train_type
+O O O O O O O O O O
+B-answer I-answer B-train_type O O B-train_type I-train_type
+B-train_type
+B-answer I-answer B-train_type O O O O O
+O B-discount_gain I-discount_gain O
+B-answer
+O
+O
+B-answer
+O O B-answer
+O
+B-existance_req B-money_exchange I-money_exchange B-coreference_city
+O
+B-money_exchange I-money_exchange B-money_exchange O O B-comparatif_time
+B-answer O
+O O
+O B-object B-city_name_arrival B-ticket_type I-ticket_type B-ticket_type B-price_req
+B-ticket_price I-ticket_price B-ticket_price
+B-hour_req I-hour_req O B-object
+B-departure_time I-departure_time B-existance B-money_exchange O
+B-money_exchange B-existance O O O
+B-answer O
+O O O O
+O O
+O
+O B-object B-city_name_arrival I-city_name_arrival
+B-city_name_arrival O B-city_name_arrival I-city_name_arrival
+B-answer I-answer B-city_name_arrival I-city_name_arrival B-answer
+B-card_type
+B-answer O O O O
+O
+O O
+B-tarif I-tarif
+B-tarif
+O O O
+B-answer
+B-ticket_number B-ticket_type B-city_name_arrival
+O B-relative_time B-departure_time I-departure_time O B-departure_time I-departure_time B-departure_time I-departure_time
+B-ticket_number B-ticket_type B-city_name_arrival
+O O O B-existance_req B-money_exchange I-money_exchange B-answer O B-answer O O
+O
+O O O O O O O O
+O B-train_type B-price_req
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+O B-class_type
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O O
+B-city_name_arrival O B-city_name_arrival
+B-answer I-answer
+B-ticket_type I-ticket_type B-price_req
+B-ticket_type I-ticket_type B-ticket_type O B-class_type
+B-answer
+B-number B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O O O O O O
+O B-class_type B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+B-price_req
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+B-state O O
+B-answer O B-state B-command_task B-class_type O
+O B-command_task
+B-ticket_type I-ticket_type B-ticket_type
+B-ticket_number B-answer
+B-ticket_type I-ticket_type B-ticket_type O
+O
+B-ticket_type I-ticket_type B-ticket_type
+B-ticket_type I-ticket_type B-ticket_type B-answer B-ticket_type I-ticket_type B-ticket_type
+B-city_name_arrival O O
+B-city_name_arrival B-answer
+B-state O O O
+B-answer O O O B-class_type B-object O O
+B-answer O O O
+B-ticket_number B-city_name_arrival
+B-ticket_number B-city_name_arrival
+O O O
+O O O
+B-existance_req O
+B-answer I-answer B-price_req O
+B-money_exchange I-money_exchange B-existance_req
+B-answer O O
+B-city_name_arrival
+O O O
+B-departure_time I-departure_time B-departure_time I-departure_time
+B-city_name_arrival B-object B-price_req
+O
+B-city_name_arrival B-object
+B-ticket_price I-ticket_price B-ticket_price
+O B-tarif
+B-tarif B-card_type
+B-answer
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+B-city_name_arrival B-ticket_price I-ticket_price B-ticket_price
+O O
+O B-day B-existance_req B-ref_object B-departure_time I-departure_time
+B-answer B-existance
+O O
+O O
+B-city_name_arrival
+B-hour_req I-hour_req
+B-departure_time I-departure_time B-departure_time I-departure_time
+B-answer O B-answer
+B-class_type O O O
+O O B-rang B-object B-city_name_arrival
+B-departure_time I-departure_time
+B-departure_time I-departure_time B-ticket_number B-age_ticket O B-ticket_number B-age_ticket I-age B-age O B-age I-age
+B-age
+B-answer I-answer B-ref_person O B-age I-age O B-ref_person O
+O O O B-ref_person B-age_ticket O B-ticket_number B-age_ticket
+B-price_req O
+O O B-object
+O B-class_type B-object
+B-answer O
+B-price_req O
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+B-price_req
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O O
+O
+B-existance_req B-money_exchange
+B-existance O O O O B-money_exchange
+B-answer O
+O O O
+O
+B-city_name_arrival B-ticket_type I-ticket_type
+O O O O O O
+B-answer
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+B-answer O B-answer B-existance_req B-money_exchange
+B-answer I-answer
+O
+O
+O B-answer O
+O O O
+B-object B-city_name_arrival O
+O B-city_name_before I-city_name_before B-coreference_city O O
+B-city_name_arrival I-city_name_arrival O B-comparatif_time O
+B-answer B-departure_time I-departure_time B-departure_time I-departure_time
+O O
+O O O B-command_task B-money_exchange I-money_exchange B-money_exchange O O B-money_exchange B-answer O O
+O O O
+B-city_name_arrival O
+O B-ref_person B-age I-age O B-ref_person O O B-age I-age
+B-age I-age B-object B-tarif
+O
+O B-age B-tarif O
+B-class_type
+B-answer B-price_req O B-relative_time O O O
+O O O
+B-ticket_number B-train_type
+B-answer
+O B-ticket_number I-ticket_number B-ticket_number
+B-city_name_arrival O
+B-city_name_arrival B-answer
+B-answer O
+O O
+O O B-answer O B-money_exchange I-money_exchange B-money_exchange I-money_exchange
+O O B-ticket_number B-city_name_arrival O
+B-ticket_number B-city_name_arrival B-hour_req I-hour_req O
+B-departure_time I-departure_time
+O O
+B-command_task B-money_exchange I-money_exchange O O B-money_exchange I-money_exchange O O B-money_exchange B-answer O B-answer
+B-price_req I-price_req
+B-ref_object B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price B-ref_person
+O B-price_req I-price_req
+B-money_exchange I-money_exchange
+B-money_exchange I-money_exchange
+O O O O
+B-ticket_number B-city_name_arrival
+B-relative_day
+B-ticket_number B-city_name_arrival
+O B-relative_day
+B-city_name_arrival
+O O
+B-answer
+B-answer
+B-departure_time
+B-departure_time I-departure_time B-departure_time
+B-ticket_number B-city_name_arrival O O
+O O O O
+O O
+B-city_name_arrival I-city_name_arrival
+O
+B-state
+O O O O O B-state O O B-state
+O B-state
+B-answer B-negation B-state O B-command_task O
+O O
+B-city_name_arrival B-object O B-age I-age O
+B-age_ticket
+B-answer
+O O O
+O
+O B-ticket_price I-ticket_price O
+O
+O O
+O
+O
+O O B-answer
+B-ticket_number B-class_type B-ref_object
+B-ticket_number I-ticket_number B-ticket_number B-age_ticket
+O O O
+O O
+O
+B-answer O B-answer
+O B-price_req O
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-existance_req B-money_exchange
+B-existance
+O O
+B-answer O O
+B-existance B-ref_object B-card_type B-ticket_price I-ticket_price B-answer
+O O
+B-ticket_number B-city_name_arrival B-class_type O
+O O O
+O
+B-existance_req B-money_exchange O O O
+B-ref_object B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+B-answer I-answer
+B-city_name_arrival
+O
+B-ticket_number B-city_name_arrival
+O
+B-existance_req B-money_exchange
+B-answer B-existance
+B-ref_object B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price B-ref_person
+O O O
+O
+B-answer I-answer O
+O O
+B-city_name_arrival
+B-answer
+O O
+O O
+B-city_name_arrival B-departure_time I-departure_time
+O O
+B-ticket_type I-ticket_type B-ticket_type B-price_req
+B-ticket_price I-ticket_price B-ticket_price
+B-city_name_arrival O O O
+O O B-command_task B-ticket_type I-ticket_type
+B-ticket_type I-ticket_type
+B-ticket_type O O O
+O O B-answer O O B-answer
+O O
+B-city_name_arrival
+O
+B-hour_req I-hour_req O
+B-departure_time I-departure_time
+B-departure_time I-departure_time B-hour_req O
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price
+O O O
+O O
+O O O O O
+O O O B-command_task B-object B-city_name_arrival
+O O O O O O B-answer I-answer
+O O O O O
+B-city_name_arrival
+O
+B-answer O
+B-hour_req I-hour_req O
+B-arrival_time I-arrival_time B-relative_time
+B-city_name_arrival B-class_type
+O B-city_name_arrival
+O O B-class_type
+O O
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O
+O O B-answer O
+B-departure_time I-departure_time B-relative_time
+O O O O O
+B-ticket_number B-city_name_arrival
+O B-train_type
+O
+B-train_type
+B-ticket_type O
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price I-ticket_price
+O B-money_exchange I-money_exchange O O B-answer
+O
+B-card_type
+O O
+B-city_name_arrival I-city_name_arrival
+B-object B-card_type
+B-answer I-answer
+O B-age_req I-age_req
+O B-age I-age
+B-
+O O
+B-city_name_arrival B-age_ticket I-age_ticket
+O O O
+B-answer B-ref_person I-ref_person
+O
+O O O
+B-existance_req I-existance_req O
+O O
+B-money_exchange I-money_exchange B-money_exchange O O B-money_exchange I-money_exchange
+B-money_exchange I-money_exchange O
+B-hour_req I-hour_req O O
+B-departure_time I-departure_time B-departure_time I-departure_time
+B-part_time I-part_time B-answer O
+O O
+B-city_name_arrival I-city_name_arrival O
+B-price_req O B-object O B-money_exchange I-money_exchange O
+B-command_task B-money_exchange I-money_exchange B-existance_req
+B-existance I-existance B-existance O B-money_exchange I-money_exchange O
+O
+O O O O O O O
+B-answer O B-answer
+O O O O O B-object
+O O
+B-city_name_arrival
+O B-ticket_price I-ticket_price B-ticket_price
+O O O
+B-city_name_arrival B-hour_req B-object B-city_name_arrival I-city_name_arrival
+B-departure_time I-departure_time O B-object O O B-departure_time I-departure_time O O O B-object I-object O B-departure_time I-departure_time O O
+O
+B-answer I-answer O B-city_name_arrival O O O B-price_req B-object O O B-existance_req B-object O O B-state O O
+O B-answer O
+O O O O O O B-state O B-existance_req I-existance_req B-object O O O O O O
+O O O O B-existance_req B-object
+O B-command_task I-command_task B-comparatif_time I-comparatif_time B-comparatif_time B-object O
+O O O
+O O O O O O O O O O B-state
+B-price_req O
+B-existance_req B-money_exchange I-money_exchange B-money_exchange I-money_exchange B-money_exchange
+O B-existance B-money_exchange I-money_exchange O O O O O O O O
+O O O O B-money_exchange I-money_exchange
+O O O
+B-answer
+B-answer O O O
+O O O O O O O O
+O O O B-command_task I-command_task B-object B-city_name_arrival O B-object O O B-relative_time B-city_name_arrival
+B-command_task
+B-command_task B-money_exchange B-command_task
+B-price_req B-money_exchange I-money_exchange O B-existance I-existance B-money_exchange I-money_exchange
+B-money_exchange I-money_exchange
+B-answer O B-existance I-existance B-money_exchange O O O
+B-existance_req I-existance_req
+B-hour_req I-hour_req O O B-object
+B-departure_time I-departure_time
+B-departure_time I-departure_time O O O O O O O O B-coreference_departure B-hour_req I-hour_req O
+B-departure_time
+O O O O O
+B-answer I-answer B-object B-existance_req B-object
+B-answer O B-object
+O O B-object O O O O O O O O
+B-object B-existance_req
+O O
+B-number_req B-object
+B-number I-number B-number I-number B-number I-number
+O O O O
+B-number I-number B-number I-number B-number I-number
+O B-card_type O
+O O O O O O O
+O B-card_type
+B-answer O B-card_type O
+B-card_type B-command_task B-object I-object B-existance I-existance B-object O
+O O O O O O O O O O O O O O O O O O O
+B-existance I-existance B-object O
+O O O O O O
+B-object B-existance I-existance O
+O O O O
+O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O O O O
+O O O O O
+O O O O O O B-existance B-object O O O B-coreference_city B-object O B-number_req B-object O B-number_req O O O O O O O O O
+B-existance I-existance B-object B-existance I-existance O B-object O
+O O O O O O O O B-existance_req B-ref_person B-coreference_city O O O O O O O O O B-object O O O O O O O O O O O O B-command_task I-command_task B-command_task I-command_task B-ref_person O O
+B-command_task O B-ref_person O B-command_task B-coreference_city B-command_task O
+O B-ref_person O O O O O B-existance_req I-existance_req B-coreference_city O O O O O B-coreference_city I-coreference_city O O O O O B-command_task I-command_task O O O O O O O O O O
+O O O
+B-existance I-existance B-object O O O O
+O O B-object O O B-object
+O O O B-command_task I-command_task B-city_name_arrival B-existance_req B-object B-relative_day O B-existance_req I-existance_req B-existance_req B-hour_req I-hour_req O B-object B-existance_req I-existance_req B-existance_req B-relative_time B-comparatif_time B-departure_time I-departure_time O B-existance_req I-existance_req B-existance_req
+O B-departure_time I-departure_time
+O O B-object B-departure_time I-departure_time B-departure_time I-departure_time O O B-city_name_arrival
+B-city_name_before I-city_name_before
+O B-city_name_arrival I-city_name_arrival O O O O O O
+B-hour_req B-rang B-object O O O B-city_name_arrival
+B-ref_object I-ref_object O O B-city_name_arrival O B-object B-city_name_arrival B-train_type O O B-train_type B-object O
+B-city_name_arrival B-departure_time I-departure_time B-train_type
+O B-command_task B-ticket_number B-ticket_type I-ticket_type B-city_name_arrival I-city_name_arrival B-object B-train_type B-ref_object I-ref_object B-ticket_type I-ticket_type
+O B-command_task B-ticket_type O
+O B-command_task I-command_task
+O
+B-price_req I-price_req O B-ticket_number B-price_req I-price_req B-ticket_number B-ticket_type I-ticket_type O B-ref_object B-ticket_type I-ticket_type O B-object B-train_type B-price_req I-price_req
+B-ticket_price I-ticket_price B-ticket_price I-ticket_price B-ticket_price B-ticket_type I-ticket_type
+O B-ref_object I-ref_object B-ticket_price I-ticket_price O O O O O O O O
+B-answer O O O
+O O O O
+O O B-city_name_arrival
+B-city_name_arrival B-answer B-command_task B-object B-city_name_arrival
+O O B-city_name_arrival
